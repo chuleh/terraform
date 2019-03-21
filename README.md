@@ -1,3 +1,2 @@
 # Terraform
-
-main repo for terraform files
+Main repo for learning terraform.
