@@ -1,3 +1,2 @@
 # Terraform.
-Main repo with .tf files.
-The idea is to build reusable code.
+Main repo with .tf files for my blog tutorials.
