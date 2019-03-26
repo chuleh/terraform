@@ -1,1 +1,3 @@
-variable "APP_INSTANCE_AMI" { default = "" }
+variable "APP_INSTANCE_AMI" {
+  default = ""
+}
