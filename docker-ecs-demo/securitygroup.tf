@@ -17,13 +17,6 @@ resource "aws_security_group" "ecs-securitygroup" {
     security_groups = ["${aws_security_group.myapp-elb-securitygroup.id}"]
   }
 
-  ingress {
-    from_port   = 22
-    to_port     = 22
-    protocol    = "tcp"
-    cidr_blocks = ["186.18.32.107/32"]
-  }
-
   tags {
     Name = "ecs"
   }
